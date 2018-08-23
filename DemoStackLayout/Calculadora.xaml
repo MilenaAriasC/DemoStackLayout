@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="DemoStackLayout.Calculadora">
+    <ContentPage.Content>
+         <Grid >
+           <Grid.RowDefinitions> 
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition/>
+              <ColumnDefinition/>
+              <ColumnDefinition/>
+              <ColumnDefinition/>
+
+            </Grid.ColumnDefinitions>
+
+             <Button BackgroundColor="White"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="4"/>
+
+            <Button BackgroundColor="Gray"
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Text="C"
+                    Font="50"/>
+            <Button BackgroundColor="Gray"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Text="+/-"
+                    Font="50"/>
+            <Button BackgroundColor="Gray"
+                    Grid.Row="1"
+                    Grid.Column="2"
+                    Text="%"
+                    Font="50"/>
+            <Button BackgroundColor="Orange"
+                    Grid.Row="1"
+                    Grid.Column="3"
+                    Text="div"
+                    Font="30"
+                    TextColor="Black"/>
+
+            <Button BackgroundColor="Silver"
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    Text="7"
+                    Font="50"/>
+             <Button BackgroundColor="Silver"
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Text="8"
+                    Font="50"/>
+             <Button BackgroundColor="Silver"
+                    Grid.Row="2"
+                    Grid.Column="2"
+                    Text="9"
+                    Font="50"/>
+             <Button BackgroundColor="Orange"
+                    Grid.Row="2"
+                    Grid.Column="3"
+                    Text="x"
+                    Font="50"
+                     TextColor="Black"/>
+
+
+            <Button BackgroundColor="Silver"
+                    Grid.Row="3"
+                    Grid.Column="0"
+                    Text="4"
+                    Font="50"/>
+             <Button BackgroundColor="Silver"
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    Text="5"
+                    Font="50"/>
+             <Button BackgroundColor="Silver"
+                    Grid.Row="3"
+                    Grid.Column="2"
+                    Text="6"
+                    Font="50"/>
+             <Button BackgroundColor="Orange"
+                    Grid.Row="3"
+                    Grid.Column="3"
+                    Text="-"
+                    Font="50"
+                     TextColor="Black"/>
+
+               <Button BackgroundColor="Silver"
+                    Grid.Row="4"
+                    Grid.Column="0"
+                    Text="1"
+                    Font="50"/>
+             <Button BackgroundColor="Silver"
+                    Grid.Row="4"
+                    Grid.Column="1"
+                    Text="2"
+                    Font="50"/>
+             <Button BackgroundColor="Silver"
+                    Grid.Row="4"
+                    Grid.Column="2"
+                    Text="3"
+                    Font="50"/>
+             <Button BackgroundColor="Orange"
+                    Grid.Row="4"
+                    Grid.Column="3"
+                    Text="+"
+                    Font="50"
+                     TextColor="Black"/>
+
+               <Button BackgroundColor="Silver"
+                    Grid.Row="5"
+                    Grid.Column="0"
+                    Text="0"
+                    Font="50"
+                       Grid.ColumnSpan="2"/>
+             <Button BackgroundColor="Silver"
+                    Grid.Row="5"
+                    Grid.Column="2"
+                    Text="."
+                    Font="50"/>
+             <Button BackgroundColor="Orange"
+                    Grid.Row="5"
+                    Grid.Column="3"
+                    Text="="
+                    Font="50"
+                     TextColor="Black"/>
+          
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

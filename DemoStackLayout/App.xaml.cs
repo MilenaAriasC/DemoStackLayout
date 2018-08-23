@@ -11,7 +11,7 @@ namespace DemoStackLayout
         {
             InitializeComponent();
 
-            MainPage = new Ejercicio();
+            MainPage = new Calculadora();
         }
 
         protected override void OnStart()
