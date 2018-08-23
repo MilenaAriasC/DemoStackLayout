@@ -32,10 +32,10 @@
             <StackLayout Orientation="Horizontal" Padding="5,10,5,0">
             <Label Text="Edad"
                     HorizontalOptions="FillAndExpand"
-                     WidthRequest="100"/> 
+                     WidthRequest="50"/> 
             <Entry 
                 Placeholder="Ingrese la edad"
-                HorizontalOptions="FillAndExpand"
+
                 VerticalOptions="CenterAndExpand"/>
             </StackLayout>
                 <StackLayout Orientation="Horizontal"  Padding="5,10,5,0">
