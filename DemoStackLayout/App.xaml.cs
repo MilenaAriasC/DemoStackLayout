@@ -11,7 +11,7 @@ namespace DemoStackLayout
         {
             InitializeComponent();
 
-            MainPage = new AbsolutoLayout();
+            MainPage = new DemoGrid();
         }
 
         protected override void OnStart()
