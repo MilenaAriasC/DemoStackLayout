@@ -13,7 +13,7 @@
                      HeightRequest="1">
             </BoxView>
             <Label Text="End"
-                   VerticalOptions="End"
+                   VerticalOptions="EndAndExpand"
                    BackgroundColor="Blue"> 
             </Label>
 
@@ -29,7 +29,7 @@
                      HeightRequest="1">
             </BoxView>
             <Label Text="Fill"
-                   VerticalOptions="Fill"
+                   VerticalOptions="FillAndExpand"
                    BackgroundColor="Blue"> 
             </Label>
             
